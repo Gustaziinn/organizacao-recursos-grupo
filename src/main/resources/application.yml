@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: organizacao-recursos
+
+integracao:
+  notificacao:
+    base-url: http://localhost:8089
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+  datasource:
+    url: jdbc:postgresql://localhost:5432/organizacao_recursos
+    username: postgres
+    password: postgres
+
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+  datasource:
+    url: jdbc:tc:postgresql:17-alpine:///organizacao_recursos
+    username: test
+    password: test
+    driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
