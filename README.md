@@ -4,9 +4,9 @@ Aplicação desenvolvida em *Java com Spring Boot* para facilitar a gestão e a 
 
 ---
 
-## 🛠️ Tecnologias
+## Tecnologias
 
-* *Linguagem:* Java 17+
+* *Linguagem:* Java 21+
 * *Framework:* Spring Boot
 * *Gerenciamento de Dependências:* Maven
 * *Qualidade de Código:* SonarQube
@@ -14,7 +14,7 @@ Aplicação desenvolvida em *Java com Spring Boot* para facilitar a gestão e a 
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 * src/main/java — Código-fonte da aplicação (Controllers, Services e Repositories)
 * src/main/resources — Configurações do projeto e arquivos de propriedades
@@ -23,7 +23,7 @@ Aplicação desenvolvida em *Java com Spring Boot* para facilitar a gestão e a 
 
 ---
 
-## 👥 Integrantes
+## Integrantes
 
 * Eros Felipe De Oliveira Rego — Desenvolvimento e estruturação do repositório
 * Gustavo Gila Pereira — Documentação e especificação de requisitos
@@ -36,4 +36,4 @@ Aplicação desenvolvida em *Java com Spring Boot* para facilitar a gestão e a 
 
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/Florencio39/organização-recursos-grupo
+   git clone https://github.com/Florencio39/organizacao-recursos-grupo.git
